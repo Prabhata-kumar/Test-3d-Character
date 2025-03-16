@@ -1,18 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseState : MonoBehaviour
+public abstract class BaseState<Estate> where Estate: Enum
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public abstract void EnterState();
+    public abstract void ExitState();
+    public abstract void UpdateState();
+    public abstract Estate GetNextState();
+    public abstract void OnTriggerEnter(Collider other);
+    public abstract void OnTriggerStay(Collider other);
+    public abstract void OnTriggerExit(Collider other);
 }

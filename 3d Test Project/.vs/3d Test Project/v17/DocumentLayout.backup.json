@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|c:\\unity project\\research project\\test-3d-character\\3d test project\\assets\\procedural animation\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\procedural animation\\scripts\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
+              "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
+              "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:50:58.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\BaseState.cs",
+              "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\BaseState.cs",
+              "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:50:26.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StateManager.cs",
+              "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
+              "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
+              "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:51:24.877Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
