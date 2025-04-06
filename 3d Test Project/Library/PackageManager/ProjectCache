@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638777395626639361
-    m_Hash: 1766710733
+      ticks: 638792992185487385
+    m_Hash: 3641281507
   m_LockFileStatus:
     m_FilePath: C:/Unity Project/Research Project/Test-3d-Character/3d Test Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638777395626664572
-    m_Hash: 2787467742
+      ticks: 638792992185532796
+    m_Hash: 1485315263
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -159,12 +159,14 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
     compatible:
     - 2.0.18
     - 2.0.20
     - 2.0.21
     - 2.0.22
-    recommended: 2.0.22
+    - 2.0.23
+    recommended: 2.0.23
     deprecated: []
   dependencies:
   - name: com.unity.test-framework

@@ -6,7 +6,8 @@ using UnityEngine;
 public abstract class StateManager<EState> : MonoBehaviour where EState : Enum
 {
     protected Dictionary<EState,BaseState<EState>> States = new Dictionary<EState, BaseState<EState>>();
-    protected BaseState<EState> currentState;  
+    protected BaseState<EState> currentState;
+    protected bool isTransitioningState = false;
 
     private void Start()
     {
@@ -15,7 +16,24 @@ public abstract class StateManager<EState> : MonoBehaviour where EState : Enum
 
     private void Update()
     {
-        currentState.UpdateState();
+        EState nextState = currentState.GetNextState();
+        if (!isTransitioningState && nextState.Equals(currentState.Statekey))
+        {
+            currentState.UpdateState();
+        }
+        else if (!isTransitioningState)
+        {
+            TransitionToState(nextState);
+        }
+    }
+
+    public void TransitionToState(EState state)
+    {
+        isTransitioningState = true;
+        currentState.ExitState();
+        currentState = States[state];
+        currentState.EnterState();
+        isTransitioningState = false;
     }
     private void OnTriggerEnter(Collider other)
     {
