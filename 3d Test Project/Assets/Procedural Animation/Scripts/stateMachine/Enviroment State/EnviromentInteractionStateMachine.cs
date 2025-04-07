@@ -23,6 +23,16 @@ public class EnviromentInteractionStateMachine : StateManager<EnviromentInteract
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Collider _collider;
     private EnviromentInteractionContex _contex;
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        if(_contex != null && _contex.closestPointOnColliderFromSolder != null)
+        {
+            Debug.Log("gizmosed drawned");
+            Gizmos.DrawSphere(_contex.closestPointOnColliderFromSolder, 3f);
+        }
+    }
     private void Awake()
     {
         ValidationConstrain();

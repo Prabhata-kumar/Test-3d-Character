@@ -18,10 +18,7 @@ public class ResetState : EnviromentInteractionState
         return EnviromentInteractionStateMachine.EEnviromentInteractionState.Serach;
         //return Statekey;
     }
-    public override void OnTriggerEnter(Collider other) 
-    {
-        Debug.Log("Enter Rest OnTriggerEnter");
-    }
+    public override void OnTriggerEnter(Collider other) { }
     public override void OnTriggerStay(Collider other) { }
     public override void OnTriggerExit(Collider other) { }
 }

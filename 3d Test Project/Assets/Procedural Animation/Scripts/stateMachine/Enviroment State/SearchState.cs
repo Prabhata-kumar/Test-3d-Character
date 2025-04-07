@@ -11,10 +11,12 @@ public class SearchState : EnviromentInteractionState
 
     public override void EnterState() 
     {
-        Debug.Log("Enter Search State");
     }
     public override void ExitState() { }
-    public override void UpdateState() { }
+    public override void UpdateState()
+    {
+        //Debug.Log("Update Search State");
+    }
     public override EnviromentInteractionStateMachine.EEnviromentInteractionState GetNextState()
     {
         return Statekey;
@@ -24,6 +26,12 @@ public class SearchState : EnviromentInteractionState
         Debug.LogError("Trigger Search entered ");
         StartIKTargatePositionTracking(other);
     }
-    public override void OnTriggerStay(Collider other) { }
-    public override void OnTriggerExit(Collider other) { }
+    public override void OnTriggerStay(Collider other) 
+    {
+        UpdateIKTargatePosition(other);
+    }
+    public override void OnTriggerExit(Collider other) 
+    {
+        ResetIKTargatePosationTracking(other);
+    }
 }

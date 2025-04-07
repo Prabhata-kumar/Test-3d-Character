@@ -19,6 +19,8 @@ public class EnviromentInteractionContex : MonoBehaviour
     private Collider _collider;
     private Transform _rootTransform;
 
+    [HideInInspector] public Vector3 characterSholderHight;
+
     public EnviromentInteractionContex(TwoBoneIKConstraint leftIKConstraint, TwoBoneIKConstraint rightIKConstraint,
         MultiRotationConstraint leftMultiAimConstraint, MultiRotationConstraint rightMultiAimConstraint, 
         Rigidbody rigidbody, Collider collider, Transform rootTransform)
@@ -30,6 +32,8 @@ public class EnviromentInteractionContex : MonoBehaviour
         _rigidbody = rigidbody;
         _collider = collider;
         _rootTransform = rootTransform;
+
+        characterSholderHight = leftIKConstraint.data.root.transform.position;  
     }
 
     public TwoBoneIKConstraint LeftIKConstraint => _leftIKConstraint;
@@ -40,11 +44,14 @@ public class EnviromentInteractionContex : MonoBehaviour
     public Collider Collider => _collider;
     public Transform RootTransform => _rootTransform;
 
+
+    public Collider currentIntercetingCollider{ get;  set; }
     public TwoBoneIKConstraint currentIKContrain { get; private set; }
     public MultiRotationConstraint currentMultiRotationConstraint { get; private set; } 
     public Transform currentIKTargateTransform { get; private set; }
     public Transform currentSolderTransfoem {  get; private set; }
     public EBodySide currentBodySide { get; private set; }
+    public Vector3 closestPointOnColliderFromSolder { get; set; } = Vector3.positiveInfinity;
 
     public void SetCurrentSide(Vector3 positionToCheck)
     {

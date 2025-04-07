@@ -35,15 +35,15 @@ public abstract class StateManager<EState> : MonoBehaviour where EState : Enum
         currentState.EnterState();
         isTransitioningState = false;
     }
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         currentState.OnTriggerEnter(other);
     }
-    private void OnTriggerStay(Collider other)
+    public void OnTriggerStay(Collider other)
     {
         currentState.OnTriggerStay(other);
     }
-    private void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)
     {
         currentState.OnTriggerExit(other);
     }
