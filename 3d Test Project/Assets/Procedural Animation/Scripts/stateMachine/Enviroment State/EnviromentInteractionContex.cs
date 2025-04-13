@@ -1,14 +1,16 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
+using UnityEngine.Rendering;
 
-public class EnviromentInteractionContex 
+public class EnviromentInteractionContex
 {
     public enum EBodySide
     {
         Left,
-        Right 
+        Right
     };
 
     private TwoBoneIKConstraint _leftIKConstraint;
@@ -22,7 +24,7 @@ public class EnviromentInteractionContex
     [HideInInspector] public Vector3 characterSholderHight;
 
     public EnviromentInteractionContex(TwoBoneIKConstraint leftIKConstraint, TwoBoneIKConstraint rightIKConstraint,
-        MultiRotationConstraint leftMultiAimConstraint, MultiRotationConstraint rightMultiAimConstraint, 
+        MultiRotationConstraint leftMultiAimConstraint, MultiRotationConstraint rightMultiAimConstraint,
         Rigidbody rigidbody, Collider collider, Transform rootTransform)
     {
         _leftIKConstraint = leftIKConstraint;
@@ -33,7 +35,7 @@ public class EnviromentInteractionContex
         _collider = collider;
         _rootTransform = rootTransform;
 
-        characterSholderHight = leftIKConstraint.data.root.transform.position;  
+        characterSholderHight = leftIKConstraint.data.root.transform.position;
     }
 
     public TwoBoneIKConstraint LeftIKConstraint => _leftIKConstraint;
@@ -45,20 +47,23 @@ public class EnviromentInteractionContex
     public Transform RootTransform => _rootTransform;
 
 
-    public Collider currentIntercetingCollider{ get;  set; }
+    public Collider currentIntercetingCollider { get; set; }
     public TwoBoneIKConstraint currentIKContrain { get; private set; }
-    public MultiRotationConstraint currentMultiRotationConstraint { get; private set; } 
+    public MultiRotationConstraint currentMultiRotationConstraint { get; private set; }
     public Transform currentIKTargateTransform { get; private set; }
-    public Transform currentSolderTransfoem {  get; private set; }
+    public Transform currentSolderTransfoem { get; private set; }
     public EBodySide currentBodySide { get; private set; }
     public Vector3 closestPointOnColliderFromSolder { get; set; } = Vector3.positiveInfinity;
+
+    public float InteractionPointYOffset { get; set; } = 0;
+    public float ColliderCenterY { get; set; } =  1.25f;
 
     public void SetCurrentSide(Vector3 positionToCheck)
     {
         Vector3 leftShoulder = _leftIKConstraint.data.root.transform.position;
         Vector3 rightSholder = _rightIKConstraint.data.root.transform.position;
 
-        bool isleftClose = Vector3.Distance(positionToCheck,leftShoulder) < Vector3.Distance(positionToCheck,rightSholder);
+        bool isleftClose = Vector3.Distance(positionToCheck, leftShoulder) < Vector3.Distance(positionToCheck, rightSholder);
         if (isleftClose)
         {
             currentBodySide = EBodySide.Left;
@@ -74,8 +79,9 @@ public class EnviromentInteractionContex
             Debug.Log("right side");
         }
 
-        currentSolderTransfoem = currentIKContrain.data.root.transform; 
+        currentSolderTransfoem = currentIKContrain.data.root.transform;
         currentIKTargateTransform = currentIKContrain.data.target.transform;
     }
 
 }
+

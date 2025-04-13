@@ -24,17 +24,20 @@ public class EnviromentInteractionStateMachine : StateManager<EnviromentInteract
     [SerializeField] private Collider _collider;
     private EnviromentInteractionContex _contex;
 
+
     private void OnDrawGizmosSelected()
     {
+
         Gizmos.color = Color.red;
-        if(_contex != null && _contex.closestPointOnColliderFromSolder != null)
+
+        if (_contex != null && _contex.closestPointOnColliderFromSolder != null)
         {
-            Debug.Log("gizmosed drawned");
-            Gizmos.DrawSphere(_contex.closestPointOnColliderFromSolder, 3f);
+            Gizmos.DrawSphere(_contex.closestPointOnColliderFromSolder, 0.06f);
         }
     }
     private void Awake()
     {
+        //ConstructEnvironmentDetectionCollider();
         ValidationConstrain();
         _contex = new EnviromentInteractionContex(_leftIKConstraint, _rightIKConstraint,
             _leftMultiAimConstraint, _rightMultiAimConstraint, _rigidbody, _collider, transform.root);
@@ -60,4 +63,17 @@ public class EnviromentInteractionStateMachine : StateManager<EnviromentInteract
         States.Add(EEnviromentInteractionState.Touch, new TouchState(_contex, EEnviromentInteractionState.Touch));
         currentState = States[EEnviromentInteractionState.Reset];
     }
+
+    private void ConstructEnvironmentDetectionCollider()
+    {
+        /*float wingspan = _collider.height;
+
+        BoxCollider boxCollider = gameObject.AddComponent<BoxCollider>();
+        boxCollider.size = new Vector3(wingspan, wingspan, wingspan);
+        boxCollider.center = new Vector3(_collider.center.x, _collider.center.y + (.25f * wingspan), _collider.center.z + (.5f * wingspan));
+        boxCollider.isTrigger = true;
+*/
+        _contex.ColliderCenterY = 1.25f;
+    }
 }
+

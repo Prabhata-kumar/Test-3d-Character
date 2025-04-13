@@ -7,13 +7,14 @@ public abstract class EnviromentInteractionState : BaseState<EnviromentInteracti
 {
     protected EnviromentInteractionContex Contex;
 
-    public EnviromentInteractionState(EnviromentInteractionContex contex, EnviromentInteractionStateMachine.EEnviromentInteractionState 
-        stateKey) :base(stateKey)
+    float offsetDistance = .05f;
+    public EnviromentInteractionState(EnviromentInteractionContex contex, EnviromentInteractionStateMachine.EEnviromentInteractionState
+        stateKey) : base(stateKey)
     {
         Contex = contex;
     }
 
-    private Vector3 GetClosserPointCollider(Collider intersectingCollider,Vector3 positiontoCheck)
+    private Vector3 GetClosserPointCollider(Collider intersectingCollider, Vector3 positiontoCheck)
     {
         return intersectingCollider.ClosestPoint(positiontoCheck);
     }
@@ -32,7 +33,7 @@ public abstract class EnviromentInteractionState : BaseState<EnviromentInteracti
 
     protected void UpdateIKTargatePosition(Collider intersectingCollider)
     {
-        if(intersectingCollider == Contex.currentIntercetingCollider)
+        if (intersectingCollider == Contex.currentIntercetingCollider)
         {
 
             SetIkTergatPosition();
@@ -41,7 +42,7 @@ public abstract class EnviromentInteractionState : BaseState<EnviromentInteracti
 
     protected void ResetIKTargatePosationTracking(Collider intersectingCollider)
     {
-        if(intersectingCollider == Contex.currentIntercetingCollider)
+        if (intersectingCollider == Contex.currentIntercetingCollider)
         {
             Contex.currentIntercetingCollider = null;
             Contex.closestPointOnColliderFromSolder = Vector3.positiveInfinity;
@@ -50,9 +51,15 @@ public abstract class EnviromentInteractionState : BaseState<EnviromentInteracti
 
     public void SetIkTergatPosition()
     {
-       
-        Contex.closestPointOnColliderFromSolder = GetClosserPointCollider(Contex.currentIntercetingCollider,
-            Contex.currentSolderTransfoem.position);
+        Contex.closestPointOnColliderFromSolder = GetClosserPointCollider(Contex.currentIntercetingCollider, Contex.currentSolderTransfoem.position);
         new Vector3(Contex.currentSolderTransfoem.position.x, Contex.characterSholderHight.y, Contex.currentSolderTransfoem.position.z);
+
+        Vector3 rayDiraction = Contex.currentSolderTransfoem.position - Contex.characterSholderHight;
+        Vector3 normalizeRayDirection = rayDiraction.normalized;
+
+        Vector3 offset = normalizeRayDirection * offsetDistance;
+        Vector3 offsetPosition = Contex.closestPointOnColliderFromSolder + offset;
+        Contex.currentIKTargateTransform.position = new Vector3(offsetPosition.x, Contex.InteractionPointYOffset, offsetPosition.z);
     }
 }
+
