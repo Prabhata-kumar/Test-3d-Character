@@ -59,7 +59,7 @@ public abstract class EnviromentInteractionState : BaseState<EnviromentInteracti
 
         Vector3 offset = normalizeRayDirection * offsetDistance;
         Vector3 offsetPosition = Contex.closestPointOnColliderFromSolder + offset;
-        Contex.currentIKTargateTransform.position = new Vector3(offsetPosition.x, Contex.InteractionPointYOffset, offsetPosition.z);
+        Contex.currentIKTargateTransform.position = new Vector3(offsetPosition.x, Contex.interactionPointYOffset, offsetPosition.z);
     }
 }
 

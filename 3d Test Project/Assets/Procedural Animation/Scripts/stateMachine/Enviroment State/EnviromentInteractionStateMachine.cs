@@ -22,7 +22,7 @@ public class EnviromentInteractionStateMachine : StateManager<EnviromentInteract
     [SerializeField] private MultiRotationConstraint _rightMultiAimConstraint;
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Collider _collider;
-    private EnviromentInteractionContex _contex;
+    protected EnviromentInteractionContex _contex;
 
 
     private void OnDrawGizmosSelected()
@@ -73,7 +73,7 @@ public class EnviromentInteractionStateMachine : StateManager<EnviromentInteract
         boxCollider.center = new Vector3(_collider.center.x, _collider.center.y + (.25f * wingspan), _collider.center.z + (.5f * wingspan));
         boxCollider.isTrigger = true;
 */
-        _contex.ColliderCenterY = 1.25f;
+        _contex.colliderCenterY = 1.25f;
     }
 }
 

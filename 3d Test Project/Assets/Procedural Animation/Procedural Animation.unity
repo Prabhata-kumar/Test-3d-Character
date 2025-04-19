@@ -1494,8 +1494,6 @@ MonoBehaviour:
   _collider: {fileID: 491576142}
   detectionRadius: 2
   reachThreshold: 1
-  touchHoldDuration: 1
-  resetLerpSpeed: 2
   interactableLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -1663,7 +1661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_Controller
@@ -2614,7 +2612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429507387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.04, y: 1.397, z: 2.95}
+  m_LocalPosition: {x: 0.99, y: 1.397, z: 2.95}
   m_LocalScale: {x: 1, y: 1, z: 1.0985}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2880,7 +2878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_Controller

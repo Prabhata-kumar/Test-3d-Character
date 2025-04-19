@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +19,8 @@ public class EnviromentInteractionContex
     private Rigidbody _rigidbody;
     private Collider _collider;
     private Transform _rootTransform;
+    private Vector3 _leftOriginalTargatePosition;
+    private Vector3 _rightOriginalTargatePosition;
 
     [HideInInspector] public Vector3 characterSholderHight;
 
@@ -34,8 +35,12 @@ public class EnviromentInteractionContex
         _rigidbody = rigidbody;
         _collider = collider;
         _rootTransform = rootTransform;
+        _leftOriginalTargatePosition = _leftIKConstraint.data.target.transform.localPosition;
+        _rightOriginalTargatePosition = _rightIKConstraint.data.target.transform.localPosition;
+        originalTargateRotation = _leftIKConstraint.data.target.transform.rotation;
 
         characterSholderHight = leftIKConstraint.data.root.transform.position;
+        SetCurrentSide(Vector3.positiveInfinity);
     }
 
     public TwoBoneIKConstraint LeftIKConstraint => _leftIKConstraint;
@@ -55,8 +60,10 @@ public class EnviromentInteractionContex
     public EBodySide currentBodySide { get; private set; }
     public Vector3 closestPointOnColliderFromSolder { get; set; } = Vector3.positiveInfinity;
 
-    public float InteractionPointYOffset { get; set; } = 0;
-    public float ColliderCenterY { get; set; } =  1.25f;
+    public float interactionPointYOffset { get; set; } = 0;
+    public float colliderCenterY { get; set; } = 1.25f;
+    public Vector3 currentOriginalTargatePosition { get; private set; }
+    public Quaternion originalTargateRotation { get; private set; }
 
     public void SetCurrentSide(Vector3 positionToCheck)
     {
@@ -69,6 +76,7 @@ public class EnviromentInteractionContex
             currentBodySide = EBodySide.Left;
             currentIKContrain = _leftIKConstraint;
             currentMultiRotationConstraint = _leftMultiAimConstraint;
+            currentOriginalTargatePosition = _leftOriginalTargatePosition;
             Debug.Log("left side ");
         }
         else
@@ -76,6 +84,7 @@ public class EnviromentInteractionContex
             currentBodySide = EBodySide.Right;
             currentIKContrain = _rightIKConstraint;
             currentMultiRotationConstraint = _rightMultiAimConstraint;
+            currentOriginalTargatePosition = _rightOriginalTargatePosition;
             Debug.Log("right side");
         }
 

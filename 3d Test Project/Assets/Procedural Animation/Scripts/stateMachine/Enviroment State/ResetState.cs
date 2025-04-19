@@ -6,8 +6,8 @@ public class ResetState : EnviromentInteractionState
 {
     float _elspsedTime = 0;
     float _restDuration = 2;
-    //float _lerpDuraction = 10f;
-
+    float _lerpDuraction = 10f;
+    float _rotationSpeed = 500f;
     bool isMoving;
     public ResetState(EnviromentInteractionContex contex, EnviromentInteractionStateMachine.EEnviromentInteractionState stateKey)
         : base(contex, stateKey)
@@ -25,7 +25,17 @@ public class ResetState : EnviromentInteractionState
     public override void UpdateState()
     {
         _elspsedTime += Time.deltaTime;
-        //Contex.InteractionPointYOffset = Mathf.Lerp(Contex.InteractionPointYOffset,Contex.ColliderCenterY, _elspsedTime/_lerpDuraction);
+        Contex.interactionPointYOffset = Mathf.Lerp(Contex.interactionPointYOffset,
+            Contex.colliderCenterY,
+            _elspsedTime/_lerpDuraction);
+        Contex.currentMultiRotationConstraint.weight = Mathf.Lerp(Contex.currentMultiRotationConstraint.weight,0, _elspsedTime / _lerpDuraction);
+        Contex.currentIKContrain.weight = Mathf.Lerp(Contex.currentIKContrain.weight,0,_elspsedTime / _lerpDuraction);
+
+        Contex.currentIKTargateTransform.localPosition = Vector3.Lerp(Contex.currentIKTargateTransform.localPosition,
+            Contex.currentOriginalTargatePosition, _elspsedTime / _lerpDuraction);
+
+        Contex.currentIKTargateTransform.rotation = Quaternion.RotateTowards(Contex.currentIKTargateTransform.rotation,
+            Contex.originalTargateRotation, _rotationSpeed * Time.deltaTime);
     }
     public override EnviromentInteractionStateMachine.EEnviromentInteractionState GetNextState()
     {
