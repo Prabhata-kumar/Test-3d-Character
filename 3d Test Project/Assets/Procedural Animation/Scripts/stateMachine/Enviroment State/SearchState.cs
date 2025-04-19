@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class SearchState : EnviromentInteractionState
 {
-    bool isCloseToTargate;
-    bool isClosestPointOnColliderValid;
+    
     float _approchDisstanceThreshold = 2.0f;
     public SearchState(EnviromentInteractionContex contex, EnviromentInteractionStateMachine.EEnviromentInteractionState stateKey) : base(contex, stateKey)
     {
@@ -23,6 +22,9 @@ public class SearchState : EnviromentInteractionState
     }
     public override EnviromentInteractionStateMachine.EEnviromentInteractionState GetNextState()
     {
+        bool isCloseToTargate;
+        bool isClosestPointOnColliderValid;
+
         isCloseToTargate = Vector3.Distance(Contex.closestPointOnColliderFromSolder,
             Contex.RootTransform.position) < _approchDisstanceThreshold;
         isClosestPointOnColliderValid = Contex.closestPointOnColliderFromSolder != Vector3.positiveInfinity;

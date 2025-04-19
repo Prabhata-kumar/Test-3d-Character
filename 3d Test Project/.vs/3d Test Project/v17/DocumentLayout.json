@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractioncontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractioncontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|c:\\unity project\\research project\\test-3d-character\\3d test project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|c:\\unity project\\research project\\test-3d-character\\3d test project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\approachstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\approachstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractionstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractioncontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\enviromentinteractioncontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\searchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\searchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\resetstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\resetstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\triggermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\triggermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\approachstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\approachstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\resetstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\resetstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\risestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,40 +41,43 @@
     {
       "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\touchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\touchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\assets\\procedural animation\\scripts\\statemachine\\enviroment state\\triggermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01ED958-6258-8933-B2EF-915916796CBA}|Assembly-CSharp.csproj|solutionrelative:assets\\procedural animation\\scripts\\statemachine\\enviroment state\\triggermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 222,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnviromentInteractionState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionState.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionState.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionState.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDcAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T20:39:23.155Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EnviromentInteractionStateMachine.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionStateMachine.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionStateMachine.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionStateMachine.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwB0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T18:59:30.074Z",
               "IsPinned": true,
@@ -86,21 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnviromentInteractionContex.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionContex.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionContex.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionContex.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\EnviromentInteractionContex.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T06:36:59.045Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "TriggerMessage.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\TriggerMessage.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\TriggerMessage.cs",
@@ -108,12 +106,11 @@
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\TriggerMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T13:39:52.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T13:39:52.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "TouchState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\TouchState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\TouchState.cs",
@@ -121,86 +118,80 @@
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\TouchState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:37:07.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:37:07.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SearchState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\SearchState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\SearchState.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\SearchState.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\SearchState.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwBAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:37:06.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:37:06.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "RiseState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\RiseState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\RiseState.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\RiseState.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\RiseState.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:37:05.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:37:05.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ResetState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ResetState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ResetState.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ResetState.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ResetState.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:37:03.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:37:03.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ApproachState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ApproachState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ApproachState.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ApproachState.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\Enviroment State\\ApproachState.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T06:33:27.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StateManager.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\StateManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:40:18.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T16:40:18.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "BaseState.cs",
               "DocumentMoniker": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
               "RelativeDocumentMoniker": "Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
               "ToolTip": "C:\\Unity Project\\Research Project\\Test-3d-Character\\3d Test Project\\Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
               "RelativeToolTip": "Assets\\Procedural Animation\\Scripts\\stateMachine\\BaseState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:40:17.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T16:40:17.021Z"
             }
           ]
         }

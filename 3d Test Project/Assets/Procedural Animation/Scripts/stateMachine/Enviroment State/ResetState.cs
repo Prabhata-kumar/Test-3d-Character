@@ -6,7 +6,7 @@ public class ResetState : EnviromentInteractionState
 {
     float _elspsedTime = 0;
     float _restDuration = 2;
-    float _lerpDuraction = 10f;
+    //float _lerpDuraction = 10f;
 
     bool isMoving;
     public ResetState(EnviromentInteractionContex contex, EnviromentInteractionStateMachine.EEnviromentInteractionState stateKey)

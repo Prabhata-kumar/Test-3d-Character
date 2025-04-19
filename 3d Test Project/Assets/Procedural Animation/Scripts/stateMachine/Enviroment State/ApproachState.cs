@@ -14,14 +14,15 @@ public class ApproachState : EnviromentInteractionState
 
     public override void EnterState()
     {
-        Debug.Log("Enter approch State");
+        Debug.LogError("Enter approch State");
         _elapsedTime = 0;
     }
     public override void ExitState() { }
     public override void UpdateState()
     {
+        Debug.Log(Contex.currentIKContrain.weight + " Value ");
         _elapsedTime += Time.deltaTime;
-        //Contex.currentIKContrain.weight = Mathf.Lerp(Contex.currentIKContrain.weight, _approchWeight, _elapsedTime / _lerpDuraction);
+        Contex.currentIKContrain.weight = Mathf.Lerp(Contex.currentIKContrain.weight, 0.5f, _elapsedTime / _lerpDuraction);
     }
     public override EnviromentInteractionStateMachine.EEnviromentInteractionState GetNextState()
     {
